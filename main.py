@@ -5,6 +5,8 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+# Далее идет класс
+
 class InputData(BaseModel):
     median_income: float
     housing_median_age: float
